@@ -143,7 +143,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li class='has-children'><a href='Week.html'>Week</a><ul class='dropdown'><li><a href='Week1~Week5.html'>Week1~Week5</a><li><a href='Week6~Week9.html'>Week6~Week9</a><li><a href='Week10~Week14.html'>Week10~Week14</a><li><a href='Week15~Week18.html'>Week15~Week18</a></li></ul><li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a></li>
+                     <li><a href='About.html'>About</a><li class='has-children'><a href='Week.html'>Week</a><ul class='dropdown'><li><a href='Week1~Week5.html'>Week1~Week5</a><li><a href='Week6~Week9.html'>Week6~Week9</a><li><a href='Week10~Week14.html'>Week10~Week14</a><li><a href='Week15~Week18.html'>Week15~Week18</a></li></ul><li><a href='Develop.html'>Develop</a></li>
                       </ul>
                 </nav>
               </div>
@@ -155,7 +155,69 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">Week << <a href='Week.html'>Previous</a> <a href='Week6~Week9.html'>Next</a> >> Week6~Week9<br /><h1>Week1~Week5</h1>
-<br />Week << <a href='Week.html'>Previous</a> <a href='Week6~Week9.html'>Next</a> >> Week6~Week9</div>
+<p>建立個人倉儲cd2020</p>
+<ol>
+<li>
+<pre>下載<a href="https://mde.tw/cad2019/content/index.html">2019Fall</a>可攜套件，解壓縮後開啟並啟動Start</pre>
+</li>
+<li>
+<pre>登入Github，創建新倉儲，命名為cd2020</pre>
+</li>
+<li>
+<pre>在可攜套件開啟的Cmd 用<span>command進入tmp資料夾</span></pre>
+</li>
+<li>
+<pre>輸入 git clone <a href="https://github.com/個人學號/cd2020">https://github.com/個人學號/cd2020</a> 來下載個人倉儲</pre>
+</li>
+<li>
+<pre>下載完成後進入cd2020資料夾，輸入<span>git submodule add  <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 來添加子模塊</span></pre>
+</li>
+<li>
+<pre>進入cmsimde資料夾，將up_dir資料夾裡的所有項目複製到cd2020裡</pre>
+</li>
+<li>
+<pre>完成後用Cmd在cmsimde資料夾裡輸入python wsgi.py，即可編輯網誌</pre>
+</li>
+<li>
+<pre>編輯完倉儲內的資料後，在Cmd依序輸入git status &gt; git add . &gt; git commit -m "標題" &gt; git push完成資料上傳</pre>
+</li>
+<li>
+<pre>在Github個人倉儲cd2020裡，將倉儲的branch改成Master branch 完成倉儲建立</pre>
+</li>
+</ol>
+<hr/>
+<p>更新Python版本</p>
+<ol>
+<li>
+<pre>從<a href="https://www.python.org/">官方網站</a>下載<a href="https://www.python.org/ftp/python/3.8.2/python-3.8.2.exe">3.8.2</a>版本(64位元)</pre>
+</li>
+<li>
+<pre>開啟安裝檔，選擇自定義安裝</pre>
+</li>
+<li>
+<pre>將pip選項<span style="color: #ff0000;">取消</span>勾選後再選擇安裝位置，完成安裝</pre>
+</li>
+<li>
+<pre>用編輯器開啟start.bat，將編碼裡所有py373改成py382後儲存，重新啟動可攜套件</pre>
+</li>
+<li>
+<pre>在cmd裡輸入python get-pip.py來安裝pip套件</pre>
+</li>
+<li>
+<pre>輸入python pip install <span style="color: #ff0000;">軟件名稱</span> 來安裝軟件</pre>
+</li>
+<li>
+<pre>安裝的軟件有<span style="color: #ff0000;">Flask Markdown Ixml bs4 flask_cors pelican leo</span><span></span></pre>
+</li>
+<li>
+<pre>完成Python版本更新</pre>
+</li>
+</ol>
+<hr/>
+<p>組別分工</p>
+<ul>
+<li>在線上直播討論並分工<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="//www.youtube.com/embed/r0AABAp474U" width="560"></iframe></li>
+</ul><br />Week << <a href='Week.html'>Previous</a> <a href='Week6~Week9.html'>Next</a> >> Week6~Week9</div>
         
     <!-- footer -->
       <div class="container">
